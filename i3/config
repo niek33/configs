@@ -168,3 +168,6 @@ exec xfce4-terminal
 assign [class="Xfce4-terminal"] 2
 assign [class="Chromium-browser"] 1
 for_window [class="Spotify"] move to workspace 3
+
+bindsym $mod+p exec systemctl poweroff
+
